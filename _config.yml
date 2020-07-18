@@ -1,1 +1,7 @@
 theme: jekyll-theme-dinky
+
+gem "github-pages", group: :jekyll_plugins
+
+# title: PUBG Finish Placement Prediction
+# description: What's the best strategy to win in PUBG? Should you sit in one spot and hide your way into victory, or do you need to be the top shot? Let's let the data do the talking!
+show_downloads: true
