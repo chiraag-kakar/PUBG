@@ -22,7 +22,9 @@ Thus stable internet connection is the only pre-requisite to run and execute the
 
 ## Data Source
 The team at PUBG has made official game data available for the public to explore and scavenge outside of "The Blue Circle" through the PUBG Developer API.
-Dataset(https://www.kaggle.com/c/pubg-finish-placement-prediction/data)
+
+
+[Dataset](https://www.kaggle.com/c/pubg-finish-placement-prediction/data)
 
 ## Data fields
 
@@ -50,9 +52,9 @@ Dataset(https://www.kaggle.com/c/pubg-finish-placement-prediction/data)
 * vehicleDestroys - Number of vehicles destroyed.
 * walkDistance - Total distance traveled on foot measured in meters.
 * weaponsAcquired - Number of weapons picked up.
-* winPoints - Win-based external ranking of player. (Think of this as an Elo ranking where only winning matters.) If there is a value other than -1 in rankPoints, then any 0 in * winPoints should be treated as a “None”.
+* winPoints - Win-based external ranking of player. (Think of this as an Elo ranking where only winning matters.) If there is a value other than -1 in rankPoints, then any 0 in winPoints should be treated as a “None”.
 * groupId - ID to identify a group within a match. If the same group of players plays in different matches, they will have a different groupId each time.
-* * numGroups - Number of groups we have data for in the match.
+* numGroups - Number of groups we have data for in the match.
 * maxPlace - Worst placement we have data for in the match. This may not match with numGroups, as sometimes the data skips over placements.
 * winPlacePerc - The target of prediction. This is a percentile winning placement, where 1 corresponds to 1st place, and 0 corresponds to last place in the match. It is * * calculated off of maxPlace, not numGroups, so it is possible to have missing chunks in a match.
 
